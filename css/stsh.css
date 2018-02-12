@@ -1,0 +1,251 @@
+* { 
+	box-sizing: border-box
+}
+
+/*
+--- STRUCTURE STYLE START ---
+*/
+
+body { 
+	background-color: #999;
+	margin-top: 0;
+	font-family: Helvetica Neue, Helvetica, sans-serif;
+}
+
+.container {
+	width: 1200px;
+	background-color: white;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	padding-top: 0;
+}
+
+.slice_container {
+	display: flex;
+}
+
+.slice_container .slice_left {
+	padding: 10px 35px;
+	padding-right: 20px;
+	flex-grow: 3;
+}
+
+.slice_container .slice_right {
+	padding: 10px 45px;
+	padding-left: 20px;
+	flex-grow: 1;
+}
+
+.slice_left_imgart {
+	display: flex;
+}
+
+.slice_left_imgart_art p {
+	margin-top: 0px;
+}
+
+section h2 {
+	margin-bottom: 10px;
+}
+
+footer ul {
+	border-top: 1px solid #BBB;
+	margin: 5px 20px;
+	margin-top: -11px;
+	padding: 10px 0;
+}
+
+footer li {
+	font-size: 12px;
+	display: inline;
+	margin: 0 20px;
+}
+
+.icon {
+	padding: 0 5px;
+}
+
+.slice_right_event_container {
+	display: flex;
+}
+
+.slice_right_event_img {
+	padding: 10px;
+}
+
+.slice_right_event_data h5 {
+	color: #999;
+	padding-top: 0;
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+.slice_right_event_data a {
+	font-size: 14px;
+	text-decoration: none;
+}
+.slice_right_event_data time {
+	font-size: 13px;
+}
+
+
+
+/*
+--- STRUCTURE STYLE END ---
+*/
+
+/*
+--- HEADER STYLE START ---
+*/
+
+.header {
+	background-image: linear-gradient(to top, #1A1A1A, #3A3A3A 40%);
+	margin-bottom: 35px;
+}
+
+.header img {
+	height: 80px;
+	display: inline-block;
+	padding: 0;
+}
+
+.header ul {
+	margin-top: 0;
+	padding-bottom: 6px;
+}
+
+.header li {
+	display: inline;
+	padding: 0 auto;
+}
+
+.header a {
+	color: white;
+	text-decoration: none;
+	margin: 0 10px;
+}
+
+.header_boxes li {
+	display: inline;
+}
+
+.header_boxes a {
+	text-decoration: none;
+	padding: 7px;
+	background-color: rgba(140, 60, 30, 0.2);
+}
+
+.header_boxes a.mfah_arch {
+	background-color: rgba(30, 30, 160, 0.2);
+}
+
+/*
+--- HEADER STYLE END ---
+*/
+
+/*
+--- ARTICLES STYLE START ---
+*/
+
+.slice_container section, h1 {
+	border-bottom: 1px solid rgba(5, 5, 5, 0.25);
+	padding-bottom: 20px;
+	color: #333;
+}
+
+h1 {
+	font-size: 30px;
+	margin-top: 5px;
+}
+
+p {
+	font-size: 14px;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+.slice_left_imgart_img {
+	padding: 0 10px;
+}
+
+h3 {
+	font-size: 14px;
+	margin-top: 0;
+}
+
+.normie_brother {
+	width: 350px;
+	height: auto;
+}
+
+.slice_left_imgart_art a {
+	font-size: 11px;
+	font-weight: bolder;
+	text-decoration: none;
+}
+
+.bloody_pain {
+	width: 250px;
+	height: auto;
+}
+
+h4 {
+	font-size: 22px;
+	color: #333;
+	margin-bottom: 5px;
+}
+
+/*
+--- ARTICLES STYLE END ---
+*/
+
+/*
+--- SEARCH BOX STYLE START ---
+*/
+
+.search_box_container {
+	position: fixed;
+	right: 30px;
+	bottom: 60px;
+	background-color: #3A539B;
+	padding: 10px;
+	line-height: 25px;
+}
+
+.search_box_container a {
+	text-decoration: none;
+	color: white;
+	font-weight: bolder;
+}
+
+.search_box_container input {
+  border: 1px solid rgb(204, 204, 204);
+  border-right: none;
+  border-radius: 4px;
+  padding: 0;
+  padding-left: 10px;
+  height: 32px;
+  width: 300px;
+  margin-right: -6px;
+  margin-top: 15px;
+}
+
+.search_box_container button {
+  color: rgb(98, 98, 98);
+  border: 1px solid rgb(204, 204, 204);
+  height: 32px;
+  width: 32px;
+  margin-left: 0;
+  border-radius: 0 4px 4px 0;
+  background: white;
+}
+
+.search_box_container button:hover {
+  background: rgb(240, 240, 240);
+}
+
+/*
+--- SEARCH BOX STYLE END ---
+*/
